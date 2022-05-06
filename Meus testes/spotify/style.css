@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+}
+
+header > nav {
+    position: absolute;
+    right: 100px;
+    top: 35px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px;
+}
+
+header a:hover {
+    color: #1ED760;
+}
+
+.header-logo {
+    padding: 20px 0px 0px 100px;
+}
+
+
+
+

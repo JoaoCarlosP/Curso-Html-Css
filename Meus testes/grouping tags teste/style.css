@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 15px auto;
+    height: 120px;
+    width: 630px;
+}
+
+nav {
+    background-color: lightcoral;
+    text-align: center;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: Black;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin: 15px auto;
+    height: 350px;
+    width: 630px;
+}
+
+section {
+    background-color: lightcoral;
+    text-align: left;
+    font-weight: bold;
+    height: auto;
+    width: 480px;
+
+    border: 2px solid black;
+    padding: 3px;
+
+}
+
+#artigo1 {
+    background-color: lightblue;
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 3px 3px 10px 3px;
+}
+
+#artigo2 {
+    background-color: lightblue;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px;
+    border: 2px solid black;
+    margin: 3px;
+}
+
+article > aside {
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    width: 80px;
+    height: 60px;
+
+    border: 2px solid black;
+    margin: 3px 3px 3px auto;
+}
+
+#main-aside {
+    background-color: rgb(155, 155, 155);
+    text-align: center;
+    font-weight: bold;
+    width: 130px;
+    height: 250px;
+    line-height: 404px;
+
+    border: 2px solid black;
+    margin: 0;
+}
+
+div {
+    display: inline-block;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    width: 630px;
+    height: 50px;
+    line-height: 20px;
+
+    padding: 10px;
+    border: 2px solid black;
+    margin: 15px auto;
+}
